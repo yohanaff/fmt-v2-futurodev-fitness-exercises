@@ -1,0 +1,49 @@
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#user-profile img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+#user-profile h2 {
+    color: #4a4a4a;
+    margin-top: 10px;
+}
+
+#user-profile p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+#user-profile img {
+    border: 3px solid #ddd;
+    padding: 5px;
+}
