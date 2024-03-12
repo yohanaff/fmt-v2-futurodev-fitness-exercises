@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #DCE8FE, #E1CBFA);
+}
+
+.sign-in-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    background: #ffffff;
+    border-radius: 1rem;
+    padding: 4rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100vh;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    color: #4F4F4F;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding-left: 4rem;
+}
+
+.text-content h1 {
+    margin-bottom: 1.5rem;
+}
+
+.text-content p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.text-content a {
+    font-weight: bold;
+    color: #4460F1;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+form a {
+    text-align: right;
+    font-size: 0.75rem;
+    color: #adadad;
+    margin: 1rem 0 0.5rem 0;
+    font-weight: 600;
+}
+
+input {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #E9EFF6;
+    padding-left: 2rem
+}
+
+button {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4460f1;
+    font-weight: 600;
+}
+
+button[type="submit"] {
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 10px #4461f186;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #bcbcbc;
+    margin-bottom: 1rem;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background: #bcbcbc;
+}
+
+.text {
+    padding: 0 10px;
+}
+
+button.social-button {
+    background: #dddddd;
+    font-weight: 100;
+}
+
+button.social-button.google {
+    background: #db4437;
+}
+
+button.social-button.facebook {
+    background: #4267B2;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.divider {
+    text-align: center;
+}
+
+.illustration {
+    grid-column: 1 / -1;
+    background-image: url('path-to-your-illustration.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+}
