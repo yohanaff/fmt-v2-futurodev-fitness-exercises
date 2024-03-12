@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FAFAFA;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+header {
+    margin-bottom: 2rem;
+    width: 100vh;
+}
+
+.registration-form {
+    width: 100%;
+    max-width: 500px;
+    background: #FFF;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.registration-form p.intro {
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+form {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+input {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.phone-input-container {
+    display: flex;
+}
+
+select#phone-prefix {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px 0 0 10px;
+    color: #ccc;
+}
+
+input[type="tel"] {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0 10px 10px 0;
+    border-left: none;
+    width: 100%;
+}
+
+button {
+    padding: 1rem;
+    border: none;
+    background-color: #242424;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #080808;
+}
+
+.login-redirect {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+a {
+    color: #080808;
+    text-decoration: none;
+    font-weight: bold;
+}

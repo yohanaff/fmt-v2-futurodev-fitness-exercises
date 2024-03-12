@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>M1S07-EX04</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Farmwise</h1>
+    </header>
+    <main class="registration-form">
+      <h2>Create an account</h2>
+      <p class="intro">Setup a free account to get access to unlimited courses</p>
+      <form>
+        <label for="full-name">Full name</label>
+        <input type="text" id="full-name" placeholder="Please enter the full name">
+
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Please enter your username">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Please enter your email">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="********************">
+
+        <label for="phone">Phone number</label>
+        <div class="phone-input-container">
+          <select id="phone-prefix" name="phone-prefix">
+            <option value="+1">+1</option>
+            <option value="+44">+44</option>
+            <option value="+55">+55</option>
+            <!-- Add other prefixes as needed -->
+          </select>
+          <input type="tel" id="phone" name="phone" placeholder="Please enter your phone number">
+        </div>
+
+        <button type="submit">Sign Up</button>
+      </form>
+      <div class="login-redirect">
+        Already have an account? <a href="#">Login</a>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
